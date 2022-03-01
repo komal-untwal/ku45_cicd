@@ -35,18 +35,6 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ url_for('simple_pages.show', page="about")}}">About</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="page1")}}">Page 1</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="page2")}}">Page 2</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="page3")}}">Page 3</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ url_for('simple_pages.show', page="page4")}}">Page 4</a>
-                            </li>
                         </ul>
                     </div>
                 </div>
@@ -55,6 +43,7 @@
     </div>
     <div class="container">
         {% block content %}
+
         {% endblock %}
     </div>
     <footer>
